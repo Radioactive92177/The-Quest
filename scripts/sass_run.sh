@@ -2,4 +2,4 @@ cd ..
 
 cd static/sass/
 
-sass --watch style.scss:../css/style.css
+sass --watch login.scss:../css/login.css
