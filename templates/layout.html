@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>The Quest | Home</title>
+    <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="../static/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
@@ -22,8 +22,5 @@
     <section>
       {% block section %}{% endblock %}
     </section>
-    <footer>
-     <p> All Copyrights &copy; reserved 2020</p>
-    </footer>
   </body>
 </html>

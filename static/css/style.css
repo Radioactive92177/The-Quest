@@ -52,8 +52,8 @@ header {
 footer {
   box-shadow: 0px -1px 5px 1px;
   padding: 0;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  margin-top: auto;
   background: #fffafa; }
   footer p {
     text-align: center;
