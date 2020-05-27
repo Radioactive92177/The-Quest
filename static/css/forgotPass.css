@@ -49,4 +49,58 @@ header {
       header nav ul #searchbar {
         display: none; }
 
+#forgotPass {
+  transition: all 0.6s ease-in-out;
+  padding: 40px;
+  margin: 150px auto;
+  width: 900px;
+  height: 300px;
+  box-shadow: 0.5px 2px 10px 0.5px #5c5c5c;
+  background: #fffafa; }
+  #forgotPass h1 {
+    width: max-content;
+    padding: 5px;
+    margin: 0 0 20px 0;
+    font-size: 60px;
+    font-family: "Bangers", cursive;
+    letter-spacing: 2px; }
+  #forgotPass form label {
+    line-height: 1.5;
+    font-family: "Bangers", cursive;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 30px 10px 0; }
+    #forgotPass form label input {
+      padding: 10px;
+      margin: 0;
+      font-size: 20px;
+      font-family: "Bangers", cursive; }
+  #forgotPass form input[type="submit"] {
+    background: #ff6c37;
+    padding: 10px 30px;
+    margin-left: 10px;
+    font-family: "Bangers", cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: -1px 1px 5px 1px #7c7c7c;
+    cursor: pointer; }
+  #forgotPass form input[type="submit"]:active {
+    background: black;
+    color: #ff6c37;
+    box-shadow: none; }
+  #forgotPass form a {
+    font-size: 25px;
+    margin-left: 50px;
+    font-family: "Bangers", cursive;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer; }
+  #forgotPass form a:hover {
+    color: #ff6c37; }
+  #forgotPass form p {
+    font-family: "Bangers", cursive;
+    word-spacing: 2px; }
+
 /*# sourceMappingURL=forgotPass.css.map */
