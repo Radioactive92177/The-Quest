@@ -1,27 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>{% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="../static/css/signup.css" />
-    <!--{% block extCSS %}
-    {% endblock %}-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <h1>The <span id="highlight">Quest</span></h1>
-      <nav>
-        <ul>
-          <li class="current"><a href="index.html">Home</a></li>
-          <li><a href="quests.html">Quests</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
+{% extends "layout.html" %}
+
+{% block title %}
+  The Quest | Register
+{% endblock %}
+      
+{% block extCSS %}
+  <link rel="stylesheet" href="../static/css/signup.css" />
+{% endblock %}
+
+{% block section %}
+    <section id="signupForm">
     <h1>Register</h1>
     <form>
       <div>
@@ -88,7 +76,5 @@
         <a href="login.html">I already have an account</a>
       </div>
     </form>
-  </section>
-</body>
-</html>
+{% endblock %}
 
